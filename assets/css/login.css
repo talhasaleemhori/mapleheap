@@ -15,7 +15,6 @@ body {
 
 .form-container h1 {
   color: #4B4B4D;
-  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 28px */
@@ -23,7 +22,6 @@ body {
   margin-bottom: 20px;
 }
 .form-container p {
-  font-size: 16px;
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0em;
@@ -183,6 +181,9 @@ body {
   .log-in-container {
       width: 100%;
   }
+  .form-container form{
+    width: 90%;
+  }
 }
 
 /* Tablet */
@@ -192,6 +193,9 @@ body {
   }
   .log-in-container {
       width: 100%;
+  }
+  .form-container form{
+    width: 90%;
   }
 }
 
